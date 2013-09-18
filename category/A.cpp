@@ -1,0 +1,14 @@
+#include<cstdio>
+
+int main(){
+	int N, counts = 0, temp;
+	scanf( "%d", &N );
+	temp = N;
+	while( ( temp = temp>>1 ) > 0 ){
+		counts++;
+		printf( "%d & %d\n", counts, temp );
+	}
+	
+	int mask = ( 1<<(counts + 1) ) - 1;
+	printf( "%d and %d\n", mask, mask & (~N) );
+}
