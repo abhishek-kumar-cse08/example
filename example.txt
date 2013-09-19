@@ -1,2 +1,6 @@
 A very prosperous new year.
-Many Hello World Examples
+<<<<<<< HEAD
+Many Hello World Lang Examples
+=======
+Hello World Lang Examples
+>>>>>>> change
